@@ -4,8 +4,7 @@
 
 defmodule Find_Average do
   def list_avg(arr) do
-    sum_list = Enum.reduce(arr, fn(x, acc) -> x + acc end)
-    sum_list / length(arr)
+    arr |> then(fn(x) -> Enum.sum(x) / Enum.count(x) end)
   end
 end
 
