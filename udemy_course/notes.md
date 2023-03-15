@@ -10,3 +10,13 @@ mix new <project_name>
 iex -S mix 
 
 ```
+
+## Misc notes
+
+- *Pattern matching* is Elixir's replacement for variable assignment.
+Examples:
+```
+color = "red"
+[color1, color2] = ["red", "blue"]
+["red", color] = ["red", "blue"]
+```
