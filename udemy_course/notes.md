@@ -38,6 +38,13 @@ iex> Map.put(colors, :primary, "blue")
 
 ```
 iex> %{ colors | primary: "blue"}
+```
 
-
+## Keyword Lists
+    
+```
+iex> colors = [{:primary, "red"}, {:secondary, "green"}]
+[primary: "red", secondary: "green"]
+iex> colors[:primary]
+"red"
 ```
