@@ -3,9 +3,9 @@ import Config
 # Configure your database
 config :discuss, Discuss.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "1234",
   hostname: "localhost",
-  database: "discuss_dev",
+  database: "postgres_docker",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
